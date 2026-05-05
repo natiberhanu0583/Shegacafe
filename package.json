@@ -1,0 +1,10 @@
+{
+  "name": "shegacafe-root",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm run dev --prefix studio",
+    "install-studio": "npm install --prefix studio",
+    "prisma:push": "npx prisma db push --prefix studio",
+    "generate": "npx prisma generate --prefix studio"
+  }
+}
